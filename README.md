@@ -53,3 +53,10 @@ SELECT latitude, longitude, SUM(heatwave) AS total_heatwaves
 FROM india_weather_data
 GROUP BY latitude, longitude
 ORDER BY total_heatwaves DESC;
+
+### 📊 Visualizations
+- 📍 Heatwave Map (Folium / Power BI)
+- 📈 Temperature Trend (Line Chart)
+- 📅 Monthly Temperature (Bar Chart)
+- 🌧 Rainfall Distribution (Histogram)
+- 🔗 Correlation Heatmap
