@@ -1,7 +1,7 @@
 # 🌦️ India Weather Analysis & Heatwave Detection
 
 ## 📌 Project Overview
-This project analyzes weather data across India to identify heatwave-prone regions, understand temperature trends, and explore relationships between weather parameters.
+This project analyzes weather data across India to identify heatwave prone regions, understand temperature trends, and explore relationships between weather parameters.
 
 ---
 
@@ -54,11 +54,3 @@ FROM india_weather_data
 GROUP BY latitude, longitude
 ORDER BY total_heatwaves DESC;
 ---
-
-
-### 📊 Visualizations
-- 📍 Heatwave Map (Folium / Power BI)
-- 📈 Temperature Trend (Line Chart)
-- 📅 Monthly Temperature (Bar Chart)
-- 🌧 Rainfall Distribution (Histogram)
-- 🔗 Correlation Heatmap
